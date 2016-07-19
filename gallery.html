@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<!--Import style.css-->
+		<link type="text/css" rel="stylesheet" href="css/gallery.min.css"  media="screen,projection"/>
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<style>
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+				<h2>Responsive images gallery based on materializecss</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m3">
+					<div class="row z-depth-1 description">
+						<div class="col s12" id="description">
+							<h6 style="font-size:1.2rem;">To move between images:</br>
+							- Use right and left arrow keys,</br>
+							- Use right and left buttons of the miniature,</br> 
+							- Or swipe right and left on touch devices, </br>
+							- You can also select an image from the miniature.<p></p>
+							Simple click on the image to zoom in or out.<p></p>
+							Simple click on pause/play button to play a slide show.
+							</h6>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col s12 m9">
+					<div class="row">
+						<div class="col s12" id="gallery">
+							<div class="gallery">
+								<div class="images-container">
+									<div class="image">
+										<!-- do not remove this img element and keep the src and alt attribute empty-->
+										<img src="" class="materialboxed" alt=""/>
+									</div>
+									<div class="images-miniature transparent">
+										<!-- do not remove those elements -->
+										<a class="btn-flat btn-action white-text waves-effect waves-light previous"><i class="mdi-av-skip-previous"></i></a>
+										<a class="btn-flat btn-action white-text waves-effect waves-light animate"><i class="mdi-av-play-arrow"></i></a>
+										<a class="btn-flat btn-action white-text waves-effect waves-light next"><i class="mdi-av-skip-next"></i></a>
+										<!-- /do not remove those elements -->
+										<!-- add your images here inside a span element with .image class and make sure to add .active class to the first img element  -->
+										<span class="image">
+											<img src="images/Nature-Wallpapers-1.jpg" class="active" alt="Responsive images gallery based on materializecss"/>
+										</span>
+										<span class="image">
+											<img src="images/Nature-Wallpapers-2.jpg" alt="Responsive images gallery based on materializecss"/>
+										</span>
+										<span class="image">
+											<img src="images/Nature-Wallpapers-3.jpg" alt="Responsive images gallery based on materializecss"/>
+										</span>
+										<span class="image">
+											<img src="images/Nature-Wallpapers-4.jpg" alt="Responsive images gallery based on materializecss"/>
+										</span>
+										<span class="image">
+											<img src="images/Nature-Wallpapers-5.jpg" alt="Responsive images gallery based on materializecss"/>
+										</span>
+										<span class="image">
+											<img src="images/Nature-Wallpapers-6.jpg" alt="Responsive images gallery based on materializecss"/>
+										</span>
+										<span class="image">
+											<img src="images/Nature-Wallpapers-7.jpg" alt="Responsive images gallery based on materializecss"/>
+										</span>
+										<span class="image">
+											<img src="images/Nature-Wallpapers-8.jpg" alt="Responsive images gallery based on materializecss"/>
+										</span>
+										<span class="image">
+											<img src="images/Nature-Wallpapers-9.jpg" alt="Responsive images gallery based on materializecss"/>
+										</span>
+										<span class="image">
+											<img src="images/Nature-Wallpapers-10.jpg" alt="Responsive images gallery based on materializecss"/>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<h5>Who made it?</h5>
+					<h6>I did. I'm Souhail, you can find me <b><a href="https://www.facebook.com/souhail.ben.slimene" target="_blank">here</a></b> on facebook or contact me via e-mail: <b>souhailbenslimene@outlook.com</b> or give me a call: <b>+216 58992959</b>.</h6>
+				</div>
+			</div>
+		</div>
+		<!--Import js files-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/jquery.visible.min.js"></script>
+		<script type="text/javascript" src="js/jquery.event.swipe.js"></script>
+		<script type="text/javascript" src="js/gallery.min.js"></script>
+	</body>
+</html>
