@@ -10,9 +10,9 @@ Simple click on the image to zoom in or out.
 Simple click on pause/play button to play a slide show. 
 
 #Contact
-facebook: https://www.facebook.com/souhail.ben.slimene
-E-mail: souhailbenslimene@outlook.com
-Phone: +21658992959
+-facebook: https://www.facebook.com/souhail.ben.slimene
+-E-mail: souhailbenslimene@outlook.com
+-Phone: +21658992959
 
 #Demo and docs
 
