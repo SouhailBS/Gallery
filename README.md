@@ -10,4 +10,4 @@ Simple click on the image to zoom in or out.
 Simple click on pause/play button to play a slide show. 
 
 #Demo and docs
-www.mywebprojects.tk/gallery
+http://souhail.tk/gallery
