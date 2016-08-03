@@ -15,8 +15,4 @@ Simple click on pause/play button to play a slide show.
 - Phone: +21658992959
 
 #Demo and docs
-<<<<<<< HEAD
 http://souhail.tk/gallery
-=======
-
->>>>>>> origin/master
